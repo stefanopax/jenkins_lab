@@ -1,0 +1,8 @@
+Started by user [8mha:////4GzkDnamTZe8tn24QYKBAEvbykK7vRZM7aW9X+T39bhNAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9rNS87My8YgCfaQ5RwgAAAA==[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins13929120971598747262.sh
++ date
++ echo The date is Fri Dec 10 16:54:50 UTC 2021
+The date is Fri Dec 10 16:54:50 UTC 2021
+Finished: SUCCESS
