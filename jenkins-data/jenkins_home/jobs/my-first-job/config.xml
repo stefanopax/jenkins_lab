@@ -37,7 +37,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>/tmp/script.sh $NAME $LASTNAME $SHOW</command>
+      <command>echo $NAME $LASTNAME $SHOW</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
