@@ -34,3 +34,16 @@ function assertDocumentModeOK() {
 }
 
 assertDocumentModeOK();
+
+// IE 8 and before tweaks....
+if (YAHOO.env.ua.ie && YAHOO.env.ua.ie < 9) {
+    function loadRespondJS() {
+        var head = document.getElementsByTagName('head')[0];
+        var script = document.createElement('script');
+
+        script.setAttribute('src', head.getAttribute('resURL') + '/scripts/respond.js');
+        head.appendChild(script);
+    }
+
+    loadRespondJS();
+}

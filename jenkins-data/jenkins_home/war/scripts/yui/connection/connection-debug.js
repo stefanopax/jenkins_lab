@@ -424,7 +424,7 @@ YAHOO.util.Connect =
         }
         else{
 
-            // Initialize any transaction-specific custom events, if provided.
+            // Intialize any transaction-specific custom events, if provided.
             if(callback && callback.customevents){
                 this.initCustomEvents(o, callback);
             }
