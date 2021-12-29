@@ -1,0 +1,3 @@
+[filesystem "Eclipse Adoptium|11.0.13|/dev/mapper/centos-root"]
+	timestampResolution = 6000 nanoseconds
+	minRacyThreshold = 2104 microseconds

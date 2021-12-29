@@ -1,6 +1,6 @@
 # Prerequisites
 * Define local DNS resolution for your hostname
-* Install Strict Crumb Issue and uncheck the Check the session ID box
+* Install the Strict Crumb Issue plugin and uncheck the Check the session ID box
 
 # Usage
 ```
