@@ -6,7 +6,16 @@
   <approvedSignatures/>
   <aclApprovedSignatures/>
   <approvedClasspathEntries/>
-  <pendingScripts/>
+  <pendingScripts>
+    <pendingScript>
+      <context>
+        <item>dsl</item>
+      </context>
+      <script>job(&apos;job_dsl_example&apos;) {}
+</script>
+      <language>groovy</language>
+    </pendingScript>
+  </pendingScripts>
   <pendingSignatures/>
   <pendingClasspathEntries/>
 </scriptApproval>

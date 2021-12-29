@@ -1,0 +1,25 @@
+Started by user [8mha:////4GzkDnamTZe8tn24QYKBAEvbykK7vRZM7aW9X+T39bhNAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL9rNS87My8YgCfaQ5RwgAAAA==[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/dsl
+The recommended git tool is: NONE
+using credential gitlab_user
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/dsl/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://git:80/jenkins-group/dsl-jobs.git # timeout=10
+Fetching upstream changes from http://git:80/jenkins-group/dsl-jobs.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://git:80/jenkins-group/dsl-jobs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision f2df1fae5030d3e85e0397ad61be960f6618157f (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f2df1fae5030d3e85e0397ad61be960f6618157f # timeout=10
+Commit message: "New push on main branch"
+First time build. Skipping changelog.
+Processing DSL script maven_gitlab.j2
+Added items:
+    GeneratedJob{name='maven_gitlab_dsl'}
+Unreferenced items:
+    GeneratedJob{name='maven_dsl'}
+Finished: SUCCESS

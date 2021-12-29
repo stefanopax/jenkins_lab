@@ -1,0 +1,10 @@
+commit 1f6220effffa92c02b9b4385e21ce2413e1ea84a
+tree 99fb90ff15ccb62a704a3b633481d6f064fc6121
+parent f2df1fae5030d3e85e0397ad61be960f6618157f
+author jenkins <jenkins@localhost.localdomain> 2021-12-29 10:59:24 -0500
+committer jenkins <jenkins@localhost.localdomain> 2021-12-29 10:59:24 -0500
+
+    DNS fix
+
+
+:100644 100644 625f0ecfcd77b3ca590c550283ff308e25f68da5 e7d4f334f34ec27bf471773d54d383533fc6c621 M	maven_gitlab.j2

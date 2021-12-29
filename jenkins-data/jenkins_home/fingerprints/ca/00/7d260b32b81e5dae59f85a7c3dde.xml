@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-12-29 10:59:55.721 UTC</timestamp>
+  <md5sum>ca007d260b32b81e5dae59f85a7c3dde</md5sum>
+  <fileName>Credential id=gitlab_user name=jenkins/******</fileName>
+  <usages>
+    <entry>
+      <string>dsl</string>
+      <ranges>18-21</ranges>
+    </entry>
+    <entry>
+      <string>maven-job</string>
+      <ranges>8-10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
