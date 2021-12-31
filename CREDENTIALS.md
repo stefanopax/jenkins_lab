@@ -1,10 +1,10 @@
 # Jenkins
-Username: jenkins
-Password: jenkins
+Username: jenkins\
+Password: *jenkins*\
 
 # Gitlab
-Username: root
-Password: rootroot
+Username: root\
+Password: *rootroot*\
 
-Username: jenkins
-Password: jenkinsjenkins
+Username: jenkins\
+Password: *jenkinsjenkins*
