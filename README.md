@@ -1,5 +1,13 @@
 # Prerequisites
 
+## Install Docker and Docker compose
+
+## Set user permission to /var/run/docker.sock
+
+```
+sudo chown jenkins:jenkins /var/run/docker.sock
+```
+
 ## Set locatime
 
 ```
@@ -24,5 +32,5 @@ sudo hwclock -w
 
 ```
 docker-compose -f jenkins-data/docker-compose.yml build
-docker-compose -f jenkins-data/docker-compose.yml up -d
+cd jenkins-data && docker-compose up -d
 ```

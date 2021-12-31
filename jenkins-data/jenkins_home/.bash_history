@@ -167,3 +167,15 @@ rm -rf *
 ls
 cd ..
 exit
+docker os
+docker ps
+docker
+docker ls
+docker volume ls
+docker ps
+exti
+exit
+docker ps
+exit
+docker ps
+exit
