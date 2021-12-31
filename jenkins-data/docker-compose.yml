@@ -12,36 +12,33 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock"
     networks:
       - net
-#  remote_host:
-#    container_name: remote_host
-#    image: remote-host
-#    build: 
-#      context: centos7 
-#    networks:
-#      - net
-#  db_host:
-#    container_name: db
-#    image: mysql:5.7
-#    environment:
-#      - "MYSQL_ROOT_PASSWORD=1234"
-#    volumes:
-#      - "$PWD/db_data:/var/lib/mysql"
-#    networks:
-#      - net
-#  git:
-#    container_name: git-server
-#    image: 'gitlab/gitlab-ee:latest'
-#    hostname: 'gitlab.example.com'
-#    ports:
-#      - '8090:80'
-#    environment:
-#      - "GITLAB_HOME=/srv/gitlab"
-#
-#    volumes:
-#      - '$GITLAB_HOME/config:/etc/gitlab'
-#      - '$GITLAB_HOME/logs:/var/log/gitlab'
-#      - '$GITLAB_HOME/data:/var/opt/gitlab'
-#    networks:
-#      - net
+  remote_host:
+    container_name: remote_host
+    image: remote-host
+    build: 
+      context: centos7 
+    networks:
+      - net
+  db_host:
+    container_name: db
+    image: mysql:5.7
+    environment:
+      - "MYSQL_ROOT_PASSWORD=1234"
+    volumes:
+      - "$PWD/db_data:/var/lib/mysql"
+    networks:
+      - net
+  git:
+    container_name: git-server
+    image: 'gitlab/gitlab-ee:latest'
+    hostname: 'gitlab.example.com'
+    ports:
+      - '8090:80'
+    volumes:
+      - '$GITLAB_HOME/config:/etc/gitlab'
+      - '$GITLAB_HOME/logs:/var/log/gitlab'
+      - '$GITLAB_HOME/data:/var/opt/gitlab'
+    networks:
+      - net
 networks:
   net:

@@ -2,10 +2,18 @@
 
 ## Install Docker and Docker compose
 
-## Set user permission to /var/run/docker.sock
+## Set user ownership
 
 ```
-sudo chown jenkins:jenkins /var/run/docker.sock
+sudo chown 1000:1000 /var/run/docker.sock
+sudo chown -R 1000:1000 *
+```
+
+## Set GITLAB_HOME environment variable
+
+vi $HOME/.bashrc
+```
+export GITLAB_HOME=/srv/gitlab
 ```
 
 ## Set locatime
@@ -24,7 +32,7 @@ sudo yum install ntp
 sudo systemctl start ntp
 sudo systemctl start ntpd
 sudo systemctl enable ntpd
-timedatectl
+sudo timedatectl
 sudo hwclock -w
 ```
 
