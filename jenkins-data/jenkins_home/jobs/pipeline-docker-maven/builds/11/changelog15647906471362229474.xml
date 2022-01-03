@@ -1,0 +1,13 @@
+commit 1fcba1b3cfbc764c15d6a384ac6d6b452cf48813
+tree cb4637f2e4e9d302714aa9b5a501c46cf8d20827
+parent 2447dfdd8aadb1831fb85541a9dd55e470c65626
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 04:59:46 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 04:59:46 +0100
+
+    Test fix and deploy.sh hardcoded image name
+
+
+:100644 100644 f1694ed885258dae0f61bd99b54669097cbbefbc ee011ca38ed9050fb1e4a721a3194d20889a72bb M	java-app/target/my-app-1.0-SNAPSHOT.jar
+:100644 100644 fd6a69bd1a7bbdab1a5dc9df9dbcd56855e07bd8 aaa01c0b1f96e175d8ee5bee86048dc4e6601664 M	java-app/target/surefire-reports/com.mycompany.app.AppTest.txt
+:100755 100755 a5f9e8fdfcffca282a31b61dc7e23228de68024f 6716cc31fcad1bb8af0302a031a9b6fada1f1eab M	jenkins/deploy/deploy.sh
+:100755 100755 860bb934b9b5d290975a4271ed4e59c5c273e08c c0eefff2ae600648a2aca4d4a0c7ee20e9c27ca9 M	jenkins/deploy/publish.sh

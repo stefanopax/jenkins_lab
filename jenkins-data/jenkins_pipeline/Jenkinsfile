@@ -1,27 +1,51 @@
 pipeline {
 
     agent any
-    
+       
+    environment {
+      PASSWORD = credentials('dockerhub-password')
+    }
+
     stages {
 
         stage('Build') {
-            steps {
-                sh '''
-                  echo Building
-                '''
+          steps {
+            sh '''
+              ./jenkins/build/maven.sh mvn -B -DskipTests clean package
+              ./jenkins/build/build.sh
+               '''
+          }
+          post {
+            success {
+              archiveArtifacts artifacts: 'java-app/target/*.jar', fingerprint: true
             }
+          }
         }
 
         stage('Test') {
             steps {
-                sh 'echo Test'
+                sh './jenkins/test/maven.sh mvn test'
+            }
+            post {
+                always {
+                    junit(
+                      allowEmptyResults: true,
+                      testResults: '**/test-reports/*.xml'
+                    )
+                }
+            }
+        }
+
+        stage('Push') {
+            steps {
+                sh './jenkins/push/push.sh'
             }
         }
 
         stage('Deploy') {
             steps {
                 sh '''
-                  echo Deploying
+                  ./jenkins/deploy/deploy.sh
                    '''
             }
         }

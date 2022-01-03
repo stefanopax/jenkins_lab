@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2640.v00e79c8113de">
+    <parentIds>
+      <string>24</string>
+    </parentIds>
+    <id>25</id>
+    <startId>20</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1105.v3de5e2efac97">
+      <startTime>1641184573136</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1105.v3de5e2efac97">
+      <error class="hudson.AbortException">
+        <detailMessage>No test report files were found. Configuration error?</detailMessage>
+        <stackTrace>
+          <trace>hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:154)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:1172)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:1155)</trace>
+          <trace>hudson.tasks.junit.JUnitParser.parseResult(JUnitParser.java:107)</trace>
+          <trace>hudson.tasks.junit.JUnitResultArchiver.parse(JUnitResultArchiver.java:153)</trace>
+          <trace>hudson.tasks.junit.JUnitResultArchiver.parseAndSummarize(JUnitResultArchiver.java:247)</trace>
+          <trace>hudson.tasks.junit.pipeline.JUnitResultsStepExecution.run(JUnitResultsStepExecution.java:63)</trace>
+          <trace>hudson.tasks.junit.pipeline.JUnitResultsStepExecution.run(JUnitResultsStepExecution.java:29)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions class="empty-list"/>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

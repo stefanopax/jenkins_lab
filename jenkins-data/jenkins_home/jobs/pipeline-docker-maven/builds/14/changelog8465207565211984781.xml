@@ -1,0 +1,21 @@
+commit 5c9f703741f1b8f8f3055b7b2fd841a89a79f6c3
+tree 19bc0a86dbb11a9951a8456a8a0601c8576ea63b
+parent f67ff137093131280da4ac64708158c093e82369
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:20:40 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:20:40 +0100
+
+    delete xml
+
+
+:100644 000000 bd8d2421c5c0838f5388bba9235c3a8bbdaee135 0000000000000000000000000000000000000000 D	java-app/target/surefire-reports/TEST-com.mycompany.app.AppTest.xml
+commit f67ff137093131280da4ac64708158c093e82369
+tree debb59da69c28d5bf07b95c5945939203634c47d
+parent 2b2b55f29d65c41fc06485dcbaa1837ab4eb1661
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:18:17 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:18:17 +0100
+
+    delete xml report
+
+
+:100644 100644 ee011ca38ed9050fb1e4a721a3194d20889a72bb f7715c276c91835b97f5906698fcdda8125e2551 M	java-app/target/my-app-1.0-SNAPSHOT.jar
+:100644 100644 aaa01c0b1f96e175d8ee5bee86048dc4e6601664 a66c3b77c3e9ab6a689ebaf549b8132cb4b8604a M	java-app/target/surefire-reports/com.mycompany.app.AppTest.txt

@@ -1,0 +1,10 @@
+commit 2b914f2b059e5541b6fe8ff6711e0f1085cabe9d
+tree d7e4a4d36feb3376d2e06aa10fa5bf450a9141fb
+parent 21863c4fd24214caa8405b6697503d9e96362d5e
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 18:12:42 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 18:12:42 +0100
+
+    Jenkins BUILD_TAG changed to BUILD_NUMBER
+
+
+:100755 100755 6716cc31fcad1bb8af0302a031a9b6fada1f1eab fee595ada1daf67b565c28cc9dea9792466bf4a9 M	jenkins/deploy/deploy.sh

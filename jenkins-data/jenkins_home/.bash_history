@@ -179,3 +179,93 @@ docker ps
 exit
 docker ps
 exit
+ls
+ls -la
+cd 
+ls -la
+ls -la .ssh/
+cat kn
+ls
+cat .ssh/known_hosts
+cat .ssh/known_hosts
+exit
+cat /opt/prod.key
+exit
+ssh -i /opt/prod.key test@192.168.1.80
+exit
+file /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports/TEST-com.mycompany.app.AppTest.xml
+cat /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports/TEST-com.mycompany.app.AppTest.xml
+ cd /jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports
+ cd /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports
+ls
+ls -la
+rm -rf *
+exit
+ cd /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports
+ls -la
+rm -rf *
+ls
+exit
+echo $BUILD_TAG 
+ls
+cat /tmp/.auth 
+exit
+cat /tmp/.auth 
+exit
+ cd /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports
+ls
+rm -rf TEST-com.mycompany.app.AppTest.xml 
+exit
+cat /tmp/.auth 
+exit
+ls
+ls
+find / -type d -name workspace 2>/dev/null 
+cd /var/jenkins_home/workspace
+ls
+cd pipeline-docker-maven
+ls
+cd jenkins/
+ls
+cd deploy/
+ls
+cat deploy.sh 
+echo $BUILD_TAG
+echo $PASSWORD 
+ls
+cat publish.sh 
+cat publish.sh 
+cat deploy.sh 
+cat /tmp/.auth 
+ls
+exit
+ cd /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports
+ls
+rm -rf TEST-com.mycompany.app.AppTest.xml 
+exit
+ cd /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports
+ls
+rm -rf *
+exit
+ls
+ cd /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports
+ls
+ cd /var/jenkins_home/workspace/pipeline-docker-maven/java-app/target/surefire-reports
+cd /var/jenkins_home/workspace/pipeline-docker-maven
+ls
+cd java-app/target/
+ls
+cd ..
+ls -la
+cd target/
+ls
+exit
+echo $BUILD_TAG
+echo $PASSWORD
+ls
+exit
+cat /tmp/.auth 
+echo $$BUILD_TAG
+echo $$
+echo $BUILD_TAG
+exit

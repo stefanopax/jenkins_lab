@@ -1,0 +1,11 @@
+commit c9e762b7a9bf738fbc227a40beb184e9eed5c4c0
+tree a5d5ad0f23d36f5408dfe520cd6b6f68f48123b1
+parent 2b914f2b059e5541b6fe8ff6711e0f1085cabe9d
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 18:19:00 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 18:19:00 +0100
+
+    BUILD_TAG replaced everywhere with BUILD_NUMBER
+
+
+:100644 100644 8d22e6182daba058359929d0124e78a2002eaffc ee780ac70085042f4c77e8618ab9c758bc4b4079 M	jenkins/build/docker-compose-build.yml
+:100755 100755 b96a23a763c574977863eff8258b55408139004f 438ceab588cb3c0c43bce6a3e2c8164ce501aa5b M	jenkins/push/push.sh

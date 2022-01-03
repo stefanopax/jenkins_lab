@@ -1,0 +1,11 @@
+commit a693b6b2aa78d10ca322b425fac0bd653755d0f0
+tree 47bded870e59fe283ae0461653882793f2e3c6f3
+parent 5c9f703741f1b8f8f3055b7b2fd841a89a79f6c3
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:25:21 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:25:21 +0100
+
+    delete fix
+
+
+:100644 100644 f7715c276c91835b97f5906698fcdda8125e2551 c99f3597656614bd5dcb8a9a58774b1045d8a4c4 M	java-app/target/my-app-1.0-SNAPSHOT.jar
+:100644 000000 a66c3b77c3e9ab6a689ebaf549b8132cb4b8604a 0000000000000000000000000000000000000000 D	java-app/target/surefire-reports/com.mycompany.app.AppTest.txt

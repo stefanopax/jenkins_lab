@@ -1,0 +1,10 @@
+commit b9740629aecfaa830814a6abc60cc41a24b492b4
+tree 9c3eb3ec5e686503c1562616377b97872675ca73
+parent 30ff3acdf8d718c141fc56845fae67693d882294
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:39:22 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:39:22 +0100
+
+    Jenkinsfile test fix
+
+
+:100644 100644 a70013f609863381f568abeeccd16bd2a443dd3b 0b1096630c25044fd62fb04cfff7f2d0cd1ce41a M	java-app/jenkins/Jenkinsfile

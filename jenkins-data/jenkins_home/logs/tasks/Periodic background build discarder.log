@@ -1,4 +1,4 @@
-Started at Fri Dec 31 10:59:58 UTC 2021
+Started at Sun Jan 02 20:45:21 UTC 2022
 Processing dsl
 Offering dsl to Project Build Discarder
 Processing job_dsl_example
@@ -11,12 +11,12 @@ Processing maven_gitlab_dsl
 Offering maven_gitlab_dsl to Project Build Discarder
 Processing my-first-job
 Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Fri Dec 31 10:59:58 UTC 2021. 57ms
-Started at Fri Dec 31 11:59:58 UTC 2021
-Processing dsl
-Offering dsl to Project Build Discarder
+Finished at Sun Jan 02 20:45:22 UTC 2022. 188ms
+Started at Sun Jan 02 21:45:21 UTC 2022
 Processing job_dsl_example
 Offering job_dsl_example to Project Build Discarder
 Processing maven-job
@@ -27,12 +27,12 @@ Processing maven_gitlab_dsl
 Offering maven_gitlab_dsl to Project Build Discarder
 Processing my-first-job
 Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Fri Dec 31 11:59:58 UTC 2021. 9ms
-Started at Fri Dec 31 12:59:58 UTC 2021
-Processing dsl
-Offering dsl to Project Build Discarder
+Finished at Sun Jan 02 21:45:21 UTC 2022. 13ms
+Started at Sun Jan 02 22:45:21 UTC 2022
 Processing job_dsl_example
 Offering job_dsl_example to Project Build Discarder
 Processing maven-job
@@ -43,12 +43,12 @@ Processing maven_gitlab_dsl
 Offering maven_gitlab_dsl to Project Build Discarder
 Processing my-first-job
 Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Fri Dec 31 12:59:58 UTC 2021. 5ms
-Started at Fri Dec 31 13:59:58 UTC 2021
-Processing dsl
-Offering dsl to Project Build Discarder
+Finished at Sun Jan 02 22:45:21 UTC 2022. 8ms
+Started at Sun Jan 02 23:45:21 UTC 2022
 Processing job_dsl_example
 Offering job_dsl_example to Project Build Discarder
 Processing maven-job
@@ -59,12 +59,12 @@ Processing maven_gitlab_dsl
 Offering maven_gitlab_dsl to Project Build Discarder
 Processing my-first-job
 Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Fri Dec 31 13:59:58 UTC 2021. 2ms
-Started at Fri Dec 31 14:59:58 UTC 2021
-Processing dsl
-Offering dsl to Project Build Discarder
+Finished at Sun Jan 02 23:45:21 UTC 2022. 16ms
+Started at Mon Jan 03 00:45:21 UTC 2022
 Processing job_dsl_example
 Offering job_dsl_example to Project Build Discarder
 Processing maven-job
@@ -75,12 +75,12 @@ Processing maven_gitlab_dsl
 Offering maven_gitlab_dsl to Project Build Discarder
 Processing my-first-job
 Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Fri Dec 31 14:59:58 UTC 2021. 2ms
-Started at Fri Dec 31 15:59:58 UTC 2021
-Processing dsl
-Offering dsl to Project Build Discarder
+Finished at Mon Jan 03 00:45:21 UTC 2022. 23ms
+Started at Mon Jan 03 01:45:21 UTC 2022
 Processing job_dsl_example
 Offering job_dsl_example to Project Build Discarder
 Processing maven-job
@@ -91,6 +91,72 @@ Processing maven_gitlab_dsl
 Offering maven_gitlab_dsl to Project Build Discarder
 Processing my-first-job
 Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Fri Dec 31 15:59:58 UTC 2021. 7ms
+Finished at Mon Jan 03 01:45:21 UTC 2022. 10ms
+Started at Mon Jan 03 02:58:58 UTC 2022
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing maven_dsl
+Offering maven_dsl to Project Build Discarder
+Processing maven_gitlab_dsl
+Offering maven_gitlab_dsl to Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Mon Jan 03 02:58:58 UTC 2022. 1ms
+Started at Mon Jan 03 03:45:21 UTC 2022
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing maven_dsl
+Offering maven_dsl to Project Build Discarder
+Processing maven_gitlab_dsl
+Offering maven_gitlab_dsl to Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Mon Jan 03 03:45:21 UTC 2022. 6ms
+Started at Mon Jan 03 04:45:21 UTC 2022
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing maven_dsl
+Offering maven_dsl to Project Build Discarder
+Processing maven_gitlab_dsl
+Offering maven_gitlab_dsl to Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Mon Jan 03 04:45:21 UTC 2022. 6ms
+Started at Mon Jan 03 18:01:23 UTC 2022
+Processing job_dsl_example
+Offering job_dsl_example to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing maven_dsl
+Offering maven_dsl to Project Build Discarder
+Processing maven_gitlab_dsl
+Offering maven_gitlab_dsl to Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+Processing pipeline-docker-maven
+Offering pipeline-docker-maven to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Mon Jan 03 18:01:23 UTC 2022. 46ms

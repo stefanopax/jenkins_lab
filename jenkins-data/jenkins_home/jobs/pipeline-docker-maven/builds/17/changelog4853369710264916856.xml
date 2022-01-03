@@ -1,0 +1,11 @@
+commit 30ff3acdf8d718c141fc56845fae67693d882294
+tree 28886456615bcddb30efc32cfd8997bc914f52b5
+parent a693b6b2aa78d10ca322b425fac0bd653755d0f0
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:33:37 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 05:33:37 +0100
+
+    added surefire-reports again
+
+
+:100644 100644 c99f3597656614bd5dcb8a9a58774b1045d8a4c4 1354081fb330e475402dd75226e4b0edff2c1c68 M	java-app/target/my-app-1.0-SNAPSHOT.jar
+:000000 100644 0000000000000000000000000000000000000000 784bf1d4a0bdf705d99ff2fe45903d358756ce92 A	java-app/target/surefire-reports/com.mycompany.app.AppTest.txt

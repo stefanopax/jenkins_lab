@@ -1,0 +1,14 @@
+commit 844d617c4c18a293ee9e32f2846adf60100a8f78
+tree 28ccf6f1bd96db41c6ce9600815efbfd478db870
+parent c9e762b7a9bf738fbc227a40beb184e9eed5c4c0
+author Jenkins Admin <jenkins@gmail.com> 2022-01-03 19:01:53 +0100
+committer Jenkins Admin <jenkins@gmail.com> 2022-01-03 19:01:53 +0100
+
+    Updates the app message
+
+
+:100644 100644 5a6d57214d17ba7484046928cf2e933ec550b50a 1855d6dfd078196c840e16e5d375853b60f25ebe M	java-app/src/main/java/com/mycompany/app/App.java
+:100644 100644 908bac851aef9be99dcc57a0efb36dc514d4e5ca 362a1e2094038d34ba98f7676253fc949d2efdc2 M	java-app/src/test/java/com/mycompany/app/AppTest.java
+:100644 100644 1354081fb330e475402dd75226e4b0edff2c1c68 52e263ca008ae909ed1b7ce0bd99fe3bfa461910 M	java-app/target/my-app-1.0-SNAPSHOT.jar
+:000000 100644 0000000000000000000000000000000000000000 8141941cb416e05640cd459d041e41827360ef1b A	java-app/target/surefire-reports/TEST-com.mycompany.app.AppTest.xml
+:100644 100644 784bf1d4a0bdf705d99ff2fe45903d358756ce92 a6235c7465b9754406f0f2f7d348ba1e79d77197 M	java-app/target/surefire-reports/com.mycompany.app.AppTest.txt
