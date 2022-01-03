@@ -1,5 +1,5 @@
 # About
-Basic hands-on lab to learn Jenkins main features and its integration with Docker, Gitlab and Maven.
+Basic hands-on lab to learn Jenkins main features and its integration with Docker, Gitlab and Maven.\
 Based on: https://www.udemy.com/course/jenkins-from-zero-to-hero/
 
 # Prerequisites
